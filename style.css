@@ -1,0 +1,26 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body{
+    background: rgb(190, 231, 190);
+}
+
+.container{
+    display: flex;
+    border-radius: 20px;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 40%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#excuse{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(66, 138, 61);
+}
